@@ -30,7 +30,7 @@ public class QuadraticFunction implements ObjectiveFunction {
 
 	public Matrix gradient(Matrix input) {
 		// TODO Auto-generated method stub
-		return this._A.times(input).plus(_B);
+		return this._A.times(2).times(input).plus(_B);
 	}
 
 	public static void main(String[] args){
