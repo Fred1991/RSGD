@@ -13,7 +13,7 @@ public class QuadraticFunction implements ObjectiveFunction {
 		this._B=B;
 		this._C=C;
 	}
-	
+	//comment:123
 
 	@Override
 	public Matrix gradient(Matrix input, Matrix prev) {
